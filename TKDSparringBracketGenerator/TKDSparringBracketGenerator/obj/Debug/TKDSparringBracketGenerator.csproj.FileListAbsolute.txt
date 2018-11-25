@@ -1,0 +1,10 @@
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\bin\Debug\TKDSparringBracketGenerator.exe.config
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.Form1.resources
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.Properties.Resources.resources
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.csproj.GenerateResource.Cache
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\bin\Debug\TKDSparringBracketGenerator.exe
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\bin\Debug\TKDSparringBracketGenerator.pdb
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.exe
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.pdb
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.EntryForm.resources
