@@ -21,13 +21,25 @@ namespace TKDSparringBracketGenerator
         {
             GenderBox.Items.Add(Gender.Male);
             GenderBox.Items.Add(Gender.Female);
+            Belt_Rank_ListBox.Items.Add(BeltRank.White);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Yellow);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Orange);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Green);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Purple);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Blue);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Red_High_Red);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Recommended_Black);
+            Belt_Rank_ListBox.Items.Add(BeltRank.First_Dan);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Second_Dan);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Third_Dan);
+            Belt_Rank_ListBox.Items.Add(BeltRank.Fourth_Dan);
         }
 
         private void Submit_Click(object sender, EventArgs e)
         {
             string name = Name_TextBox.Text;
-            string rank = Belt_Rank_ListBox.Text;
-            string gender = GenderBox.Text;       
+            BeltRank rank = (BeltRank)Belt_Rank_ListBox.SelectedItem;
+            Gender gender = (Gender)GenderBox.SelectedItem;       
             int height = Convert.ToInt32(Height_TextBox.Text);
             double weight = Convert.ToDouble(Weight_TextBox.Text);   
 
@@ -39,30 +51,31 @@ namespace TKDSparringBracketGenerator
             this.Close();
         }
 
-      /*  public Gender checkGender()
-        {
-            if(GenderBox.Text == "Female")
-            {
-                return Gender.FEMALE;
-            }
-            else
-            {
-                return Gender.MALE;
-            }
-                 
-            if(((string) GenderBox.SelectedItems[0]) == "Female")
-            {
-                return Gender.FEMALE; 
-            }
-            else
-            {
-                return Gender.MALE;
-            }
-            
-            Console.WriteLine(GenderBox.SelectedItem);
-           // return (Gender)GenderBox.SelectedItem;
-        }
-      */
+       
+        /*  public Gender checkGender()
+          {
+              if(GenderBox.Text == "Female")
+              {
+                  return Gender.FEMALE;
+              }
+              else
+              {
+                  return Gender.MALE;
+              }
+
+              if(((string) GenderBox.SelectedItems[0]) == "Female")
+              {
+                  return Gender.FEMALE; 
+              }
+              else
+              {
+                  return Gender.MALE;
+              }
+
+              Console.WriteLine(GenderBox.SelectedItem);
+             // return (Gender)GenderBox.SelectedItem;
+          }
+        */
 
         //weight classes can be combined to the weight class above if only 1 person is in the weight class, need a min of 2 to fight
 

@@ -92,20 +92,11 @@
             // Belt_Rank_ListBox
             // 
             this.Belt_Rank_ListBox.FormattingEnabled = true;
-            this.Belt_Rank_ListBox.Items.AddRange(new object[] {
-            "White/Yellow",
-            "Orange/Green",
-            "Purple/Blue",
-            "Red/High Red",
-            "Recommended Black",
-            "1st Dan",
-            "2nd Dan",
-            "3rd Dan",
-            "4th Dan"});
             this.Belt_Rank_ListBox.Location = new System.Drawing.Point(183, 38);
             this.Belt_Rank_ListBox.Name = "Belt_Rank_ListBox";
             this.Belt_Rank_ListBox.Size = new System.Drawing.Size(166, 43);
             this.Belt_Rank_ListBox.TabIndex = 8;
+    
             // 
             // label3
             // 

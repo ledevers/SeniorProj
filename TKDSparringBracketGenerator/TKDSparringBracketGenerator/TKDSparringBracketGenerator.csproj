@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeltRank.cs" />
     <Compile Include="Competitor.cs" />
     <Compile Include="EntryForm.cs">
       <SubType>Form</SubType>

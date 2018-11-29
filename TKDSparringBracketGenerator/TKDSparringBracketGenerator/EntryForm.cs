@@ -27,10 +27,10 @@ namespace TKDSparringBracketGenerator
         {
             string[] items = new string[] {
                 competitor.Name,
-                competitor.Gender,
-                competitor.Rank,
+                competitor.Gender.ToString(),
+                competitor.Rank.ToString(),
                 competitor.WeightClass.ToString(),
-                competitor.Weight.ToString()//TODO change to Divison when can
+                competitor.Divison//TODO change to Divison when can
             };
             Console.WriteLine(items[1]);
             ListViewItem item = new ListViewItem(items);
