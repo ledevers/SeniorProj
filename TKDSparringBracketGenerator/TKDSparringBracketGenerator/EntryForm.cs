@@ -12,9 +12,11 @@ namespace TKDSparringBracketGenerator
 {
     public partial class EntryForm : Form
     {
+        public List<Competitor> enteredCompetitors { get; }
         public EntryForm()
         {
             InitializeComponent();
+            enteredCompetitors = new List<Competitor>();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +37,16 @@ namespace TKDSparringBracketGenerator
             Console.WriteLine(items[1]);
             ListViewItem item = new ListViewItem(items);
             competitorListView.Items.Add(item);
+            enteredCompetitors.Add(competitor);//added the competitor to the list for the algorithm
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BracketForm newBracketForm = new BracketForm();
+            newBracketForm.ShowDialog(this);
+
+        }
+
+        
     }
 }

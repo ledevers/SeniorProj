@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Enroll = new System.Windows.Forms.Button();
             this.competitorListView = new System.Windows.Forms.ListView();
             this.nameCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.genderCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.rankCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.weightClassCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.divisonCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button2 = new System.Windows.Forms.Button();
+            this.Generate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,15 +48,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Competitors";
             // 
-            // button1
+            // Enroll
             // 
-            this.button1.Location = new System.Drawing.Point(15, 298);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Enroll";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Enroll.Location = new System.Drawing.Point(15, 298);
+            this.Enroll.Name = "Enroll";
+            this.Enroll.Size = new System.Drawing.Size(75, 23);
+            this.Enroll.TabIndex = 2;
+            this.Enroll.Text = "Enroll";
+            this.Enroll.UseVisualStyleBackColor = true;
+            this.Enroll.Click += new System.EventHandler(this.button1_Click);
             // 
             // competitorListView
             // 
@@ -98,23 +98,24 @@
             this.divisonCol.DisplayIndex = 3;
             this.divisonCol.Text = "Divison";
             // 
-            // button2
+            // Generate
             // 
-            this.button2.Location = new System.Drawing.Point(151, 298);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Generate Brackets";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Generate.Location = new System.Drawing.Point(151, 298);
+            this.Generate.Name = "Generate";
+            this.Generate.Size = new System.Drawing.Size(112, 23);
+            this.Generate.TabIndex = 4;
+            this.Generate.Text = "Generate Brackets";
+            this.Generate.UseVisualStyleBackColor = true;
+            this.Generate.Click += new System.EventHandler(this.button2_Click);
             // 
             // EntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 350);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Generate);
             this.Controls.Add(this.competitorListView);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Enroll);
             this.Controls.Add(this.label1);
             this.Name = "EntryForm";
             this.Text = "EntryForm";
@@ -125,13 +126,13 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Enroll;
         private System.Windows.Forms.ListView competitorListView;
         private System.Windows.Forms.ColumnHeader nameCol;
         private System.Windows.Forms.ColumnHeader rankCol;
         private System.Windows.Forms.ColumnHeader weightClassCol;
         private System.Windows.Forms.ColumnHeader divisonCol;
         private System.Windows.Forms.ColumnHeader genderCol;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Generate;
     }
 }
