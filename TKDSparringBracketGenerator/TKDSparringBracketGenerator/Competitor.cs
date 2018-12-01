@@ -14,7 +14,7 @@ namespace TKDSparringBracketGenerator
         public int Height { get; }
         public double Weight { get; }
         public WeightClass WeightClass { get; }
-        public string Divison;
+        public string Division;
        public Competitor(string name, BeltRank rank, Gender gender, int height, double weight)
         {
             this.Name = name;
@@ -115,15 +115,15 @@ namespace TKDSparringBracketGenerator
         {
             if (rank == BeltRank.White || rank == BeltRank.Yellow)
             {
-                 Divison = "C";
+                 Division = "C";
             }
             else if(rank == BeltRank.Recommended_Black || rank == BeltRank.First_Dan || rank == BeltRank.Second_Dan || rank == BeltRank.Third_Dan || rank == BeltRank.Fourth_Dan)
             {
-                 Divison = "A";
+                 Division = "A";
             }
             else
             {
-                 Divison = "B";
+                 Division = "B";
             }
         }             
     }

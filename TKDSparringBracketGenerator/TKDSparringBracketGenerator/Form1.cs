@@ -50,35 +50,5 @@ namespace TKDSparringBracketGenerator
             entryForm.AddCompetitor(person);
             this.Close();
         }
-
-       
-        /*  public Gender checkGender()
-          {
-              if(GenderBox.Text == "Female")
-              {
-                  return Gender.FEMALE;
-              }
-              else
-              {
-                  return Gender.MALE;
-              }
-
-              if(((string) GenderBox.SelectedItems[0]) == "Female")
-              {
-                  return Gender.FEMALE; 
-              }
-              else
-              {
-                  return Gender.MALE;
-              }
-
-              Console.WriteLine(GenderBox.SelectedItem);
-             // return (Gender)GenderBox.SelectedItem;
-          }
-        */
-
-        //weight classes can be combined to the weight class above if only 1 person is in the weight class, need a min of 2 to fight
-
-
     }
 }

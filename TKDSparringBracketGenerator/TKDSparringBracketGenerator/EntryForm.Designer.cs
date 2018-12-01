@@ -35,7 +35,7 @@
             this.genderCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.rankCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.weightClassCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.divisonCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.divisionCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Generate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -65,7 +65,7 @@
             this.genderCol,
             this.rankCol,
             this.weightClassCol,
-            this.divisonCol});
+            this.divisionCol});
             this.competitorListView.Location = new System.Drawing.Point(12, 25);
             this.competitorListView.Name = "competitorListView";
             this.competitorListView.Size = new System.Drawing.Size(426, 267);
@@ -93,10 +93,10 @@
             this.weightClassCol.Text = "Weight Class";
             this.weightClassCol.Width = 90;
             // 
-            // divisonCol
+            // divisionCol
             // 
-            this.divisonCol.DisplayIndex = 3;
-            this.divisonCol.Text = "Divison";
+            this.divisionCol.DisplayIndex = 3;
+            this.divisionCol.Text = "Division";
             // 
             // Generate
             // 
@@ -131,7 +131,7 @@
         private System.Windows.Forms.ColumnHeader nameCol;
         private System.Windows.Forms.ColumnHeader rankCol;
         private System.Windows.Forms.ColumnHeader weightClassCol;
-        private System.Windows.Forms.ColumnHeader divisonCol;
+        private System.Windows.Forms.ColumnHeader divisionCol;
         private System.Windows.Forms.ColumnHeader genderCol;
         private System.Windows.Forms.Button Generate;
     }

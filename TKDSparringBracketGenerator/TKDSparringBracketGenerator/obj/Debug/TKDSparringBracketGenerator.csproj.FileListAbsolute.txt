@@ -8,3 +8,4 @@ C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringB
 C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.exe
 C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.pdb
 C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.EntryForm.resources
+C:\Users\Leah\Documents\KSU\Senior_Proj\TKDSparringBracketGenerator\TKDSparringBracketGenerator\obj\Debug\TKDSparringBracketGenerator.BracketForm.resources

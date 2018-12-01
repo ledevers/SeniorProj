@@ -32,7 +32,7 @@ namespace TKDSparringBracketGenerator
                 competitor.Gender.ToString(),
                 competitor.Rank.ToString(),
                 competitor.WeightClass.ToString(),
-                competitor.Divison//TODO change to Divison when can
+                competitor.Division//TODO change to Divison when can
             };
             Console.WriteLine(items[1]);
             ListViewItem item = new ListViewItem(items);
@@ -47,6 +47,12 @@ namespace TKDSparringBracketGenerator
 
         }
 
-        
+      /*  public void AddBracket(List<Competitor> comps)
+        {
+            ListViewItem item = new ListViewItem(comps);
+
+        }
+
+        */
     }
 }
