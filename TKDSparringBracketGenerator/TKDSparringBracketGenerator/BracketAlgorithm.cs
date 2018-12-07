@@ -32,9 +32,11 @@ namespace TKDSparringBracketGenerator
             int startOfA = comp.FindIndex(c => c.Division.Equals("A"));
             startOfA = Math.Max(0, startOfA);
             _A = comp.GetRange(startOfA, comp.Count(c => c.Division.Equals("A")));
+
             int startOfB = comp.FindIndex(c => c.Division.Equals("B"));
             startOfB = Math.Max(0, startOfB);
             _B = comp.GetRange(startOfB, comp.Count(c => c.Division.Equals("B")));
+
             int startOfC = comp.FindIndex(c => c.Division.Equals("C"));
             startOfC = Math.Max(0, startOfC);
             _C = comp.GetRange(startOfC, comp.Count(c => c.Division.Equals("C")));
@@ -59,6 +61,8 @@ namespace TKDSparringBracketGenerator
             _competitors.AddRange(_C);
 
             return _competitors;
-        }      
+        }  
+        
+            
     }
 }

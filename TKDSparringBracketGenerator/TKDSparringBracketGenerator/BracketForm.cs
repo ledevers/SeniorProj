@@ -14,8 +14,6 @@ namespace TKDSparringBracketGenerator
     {
         private BracketAlgorithm bracketAlgorithm;
 
-
-
         public BracketForm()
         {
             InitializeComponent();
@@ -33,11 +31,11 @@ namespace TKDSparringBracketGenerator
             for (int i = 0; i < list.Count; i++)
             {
                 string[] items = new string[] {
-                bracketAlgorithm.Competitors[i].Name,
-                bracketAlgorithm.Competitors[i].Gender.ToString(),
+                bracketAlgorithm.Competitors[i].Division,
+                bracketAlgorithm.Competitors[i].Name,                
                 bracketAlgorithm.Competitors[i].Rank.ToString(),
                 bracketAlgorithm.Competitors[i].WeightClass.ToString(),
-                bracketAlgorithm.Competitors[i].Division
+                bracketAlgorithm.Competitors[i].Gender.ToString()
                 };
 
                 //asListViewItems.SubItems.AddRange

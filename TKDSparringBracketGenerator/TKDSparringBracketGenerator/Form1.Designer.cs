@@ -96,16 +96,15 @@
             this.Belt_Rank_ListBox.Name = "Belt_Rank_ListBox";
             this.Belt_Rank_ListBox.Size = new System.Drawing.Size(166, 43);
             this.Belt_Rank_ListBox.TabIndex = 8;
-    
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(21, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.Size = new System.Drawing.Size(74, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Weight (in kg)";
+            this.label3.Text = "Weight (in lbs)";
             // 
             // label5
             // 
